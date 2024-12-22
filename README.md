@@ -1,8 +1,28 @@
-# React + Vite
+# Messenger App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- The Messenger App is a simple and interactive messaging platform built using React. It allows users to log in, manage friends, and exchange real-time messages in a clean and user-friendly interface. All data is stored locally using localStorage, ensuring persistence across browser sessions.
 
-Currently, two official plugins are available:
+## Features
+- User Authentication:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  - Log in using a username.
+  - Logout functionality to clear user data.
+    
+- Friend Management:
+
+  - Add new friends to your friend list.
+  - Easily switch between conversations with different friends.
+
+- Messaging:
+
+  - Send and receive messages in real-time.
+  - Messages include timestamps for better context.
+
+- Persistent Storage:
+
+  - All conversations and user data are stored in localStorage for easy recovery across sessions.
+
+- Responsive Design:
+
+  - Designed to adapt seamlessly to different screen sizes.
+  - Chat window and friend list are displayed side by side for desktop users.
